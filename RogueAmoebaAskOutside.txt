@@ -1,0 +1,239 @@
+{
+  "description" : "",
+  "name" : "RogueAmoebaAskOutside",
+  "rules" : [
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "remote-domains" : "rogueamoeba.net"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "ask",
+      "process" : "\/Applications\/Modified\/Airfoil\/Airfoil.app\/Contents\/MacOS\/Airfoil",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "ask",
+      "process" : "\/Applications\/Modified\/Audio Hijack.app\/Contents\/MacOS\/Audio Hijack",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "ask",
+      "process" : "\/Applications\/Modified\/Farrago.app\/Contents\/MacOS\/Farrago",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "ask",
+      "process" : "\/Applications\/Modified\/Loopback.app\/Contents\/MacOS\/Loopback",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "ask",
+      "process" : "\/Applications\/Modified\/SoundSource.app\/Contents\/MacOS\/SoundSource",
+      "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "broadcast"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "bonjour"
+    },
+    {
+      "action" : "allow",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "ask",
+      "process" : "\/Applications\/Modified\/Piezo.app\/Contents\/MacOS\/Piezo",
+      "remote" : "any"
+    }
+  ]
+}
